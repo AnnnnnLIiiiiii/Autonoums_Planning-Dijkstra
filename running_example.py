@@ -4,7 +4,6 @@ from generate_map import generate_map
 from Dijkstra import Dij
 
 
-
 def _updateMap(y, x, color, map):
     map[y, x] = color
     cv2.namedWindow("Configuration Space and corresponding path", cv2.WINDOW_NORMAL)
