@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 
+
 def Dij(_map):
     def updateMap(y, x, color):
         map_to_show[y_start, x_start] = [0, 255, 0]
